@@ -2,7 +2,7 @@
 
 **Github:**
 
- - [ ] Run PowerShell Script: `./init "{APP_NAME}" "{APP_SHORT_NAME}"`.
+ - [*] Run PowerShell Script: `./init "{APP_NAME}" "{APP_SHORT_NAME}"`.
 
  This will replace placeholder text within `package.json`, `manifest.json`, `index.html`, and `AppSettings.js`; then install all NPM dependencies.
 

@@ -1,0 +1,43 @@
+.not-found {
+    display: flex;
+    flex-flow: column;
+    justify-items: space-around;
+    align-items: center;
+    background-color:#024;
+    color: gainsboro;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.not-found img {
+    max-width: 75vw;
+    margin: 30px;
+    border-radius: 50%;
+    filter: brightness(90%) drop-shadow(0 0 3rem #579) sepia(69%);
+}
+
+.not-found h1 {
+    font-size: 3rem;
+    margin:30px;
+}
+
+.not-found p {
+    font-size: 1.5rem;
+    margin: 4ch auto;
+    max-width: 90vw;
+}
+
+.not-found a {
+    font-size: 1.2rem;
+    padding: 1.5ch 3ch;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255, 255, 255, 0.5), inset -0.2em -0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
+}
+
+.not-found a:hover {
+    background-color: #2980b9;
+}

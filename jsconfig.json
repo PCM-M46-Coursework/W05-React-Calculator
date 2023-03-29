@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "~/*": [ "*" ],
+            "@/*": [ "*" ],
+            "@components/*": [ "@/components/*" ],
+            "@pages/*": [ "@/pages/*" ],
+            "@styles/*": [ "@/styles/*" ],
+            "@services/*": [ "@/services/*" ]
+        }
+    },
+    "exclude": [ "node_modules", "build", "scripts", "acceptance-tests", "webpack", "jest", "src/setupTests.js" ]
+}

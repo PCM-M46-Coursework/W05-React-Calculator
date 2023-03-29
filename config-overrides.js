@@ -7,5 +7,15 @@ module.exports = function override(config) {
     '@pages': './src/pages',
   })(config);
 
+  config.module.rules.push({
+    test: /\.jsonc$/,
+    loader: 'jsonc-loader',
+    type: 'javascript/auto',
+  }, {
+    test: /\.json5$/,
+    loader: 'json5-loader',
+    type: 'javascript/auto',
+  });
+
   return config;
 };

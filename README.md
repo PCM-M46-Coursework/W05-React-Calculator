@@ -23,8 +23,17 @@ This repository contains my submission for the [Master Coding](https://wearecode
 
  ## Implementation
 
-**TODO:** Write Implementation Details.
+For this assignment, I took inspiration from the calculator on my Android phone. The button and display layouts, and the functionality available is the same as you would find on the mobile app.
+
+<p style="text-align:center">
+  <img src="https://9to5google.com/wp-content/uploads/sites/4/2021/09/google_calculator_android_12_my_1.jpg?quality=82&strip=all&w=1600" />
+</p>
+
+
+Styling has been set in a sheet, metallic style, with flat buttons, and a sunken screen. I've used CSS Grid, rather than Flex, to be able to achieve a more consistent layout, with less CSS.
 
  ## Retrospective
 
-**TODO:** Write Retrospective.
+This is the first project I've done, roadtesting my React Boilerplate Template. There were a lot of teething problems along the way. Most notably, trying to get React to parse JSONC. Which, never turned out to be necessary anyway.
+
+A lot of the styling for this app came about accidentally. The buttons themselves, are unstyled; but the default styling that buttons have, lends itself to the "Dell Inspiron" inspired look and feel of the calculator.

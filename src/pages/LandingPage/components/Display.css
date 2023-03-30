@@ -1,0 +1,23 @@
+.display {
+    grid-column: span 4;
+    padding: 1ch;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+    background-color: grey;
+    color: #f5f5f5;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.display > div {
+    overflow-x: hidden;
+}
+
+.display-expression {
+    min-height: 3ch;
+    font-size: 2em;
+    overflow-x: hidden;
+}
+
+.display-result {
+    min-height: 3ch;    
+}

@@ -1,0 +1,31 @@
+[
+    { "type": "operator", "label": "√" },
+    { "type": "operator", "label": "π" },
+    { "type": "operator", "label": "^" },
+    { "type": "operator", "label": "!" },
+
+    { "type": "clear", "label": "AC" },
+    { "type": "brackets", "label": "( )" },
+    { "type": "operand", "label": "%" },
+    { "type": "operand", "label": "÷" },
+
+    { "type": "operand", "label": "7" },
+    { "type": "operand", "label": "8" },
+    { "type": "operand", "label": "9" },
+    { "type": "operator", "label": "x" },
+
+    { "type": "operand", "label": "4" },
+    { "type": "operand", "label": "5" },
+    { "type": "operand", "label": "6" },
+    { "type": "operator", "label": "-" },
+
+    { "type": "operand", "label": "1" },
+    { "type": "operand", "label": "2" },
+    { "type": "operand", "label": "3" },
+    { "type": "operator", "label": "+" },
+    
+    { "type": "operand", "label": "0" },
+    { "type": "operand", "label": "." },
+    { "type": "back", "label": "⌫" },
+    { "type": "equals", "label": "=" }
+]

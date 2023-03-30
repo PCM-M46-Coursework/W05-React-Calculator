@@ -1,3 +1,12 @@
-.LandingPage {
-  text-align: center;
+.CalculatorApp {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #112233;
+}
+
+.logo {
+    margin: 100px;
+    filter: drop-shadow(0 0 1.2em #ace);
 }
